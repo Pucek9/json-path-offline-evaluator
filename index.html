@@ -1,0 +1,56 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <title>Json Path Offline Evaluator</title>
+    <!--<link rel="stylesheet" href="main.css">-->
+    <script src="./node_modules/jsonpath-plus/lib/jsonpath.js"></script>
+    <script src="./node_modules/jsonpath/jsonpath.js"></script>
+
+    <script src="index.js"></script>
+</head>
+<body>
+
+<h1>Json Path Offline Evaluator</h1>
+
+<div style="column-count: 2;">
+    <div>
+        <label for="library">Library<br/>
+            <select id="library"
+                    name="library"
+                    onchange="jsonEvaluate()"
+                    style="width:90.7%;">
+                <option value="JsonPath">JsonPath (dchester)</option>
+                <option value="JsonPath-Plus">JsonPath-Plus (s3u)</option>
+            </select>
+        </label>
+        <br/>
+        <label for="path">JsonPath<br/>
+            <input id="path"
+                   style="width:90%;"
+                   onkeyup="jsonEvaluate()">
+        </label>
+        <br/>
+        <label for="json">Json<br/>
+            <textarea id="json"
+                      rows="36"
+                      cols="85"
+                      onblur="jsonEvaluate()"
+                      onkeyup="jsonEvaluate()">
+                </textarea>
+        </label>
+        <footer style="position: absolute;">Copyright by MG</footer>
+    </div>
+    <div>
+        <label for="output">Output<br/>
+            <textarea rows="41"
+                      cols="85"
+                      id="output"
+                      readonly>
+            </textarea>
+        </label>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "jsonpath-offline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jsonpath": "^0.2.12",
+    "jsonpath-plus": "^0.16.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michał Gruca",
+  "license": "ISC"
+}
