@@ -1,7 +1,7 @@
 {
   "name": "jsonpath-offline",
   "version": "1.0.0",
-  "description": "",
+  "description": "JsonPath offline evaluator",
   "main": "index.js",
   "dependencies": {
     "jsonpath": "^0.2.12",
@@ -11,6 +11,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Michał Gruca",
-  "license": "ISC"
+  "author": "Michał Gruca <pucek9@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pucek9/json-path-offline-evaluator"
+  },
+  "license": "Breeware"
 }

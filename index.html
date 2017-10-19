@@ -3,16 +3,12 @@
 <head>
     <meta charset="utf-8">
     <title>Json Path Offline Evaluator</title>
-    <!--<link rel="stylesheet" href="main.css">-->
     <script src="./node_modules/jsonpath-plus/lib/jsonpath.js"></script>
     <script src="./node_modules/jsonpath/jsonpath.js"></script>
-
     <script src="index.js"></script>
 </head>
 <body>
-
 <h1>Json Path Offline Evaluator</h1>
-
 <div style="column-count: 2;">
     <div>
         <label for="library">Library<br/>
@@ -20,8 +16,8 @@
                     name="library"
                     onchange="jsonEvaluate()"
                     style="width:90.7%;">
-                <option value="JsonPath">JsonPath (dchester)</option>
                 <option value="JsonPath-Plus">JsonPath-Plus (s3u)</option>
+                <option value="JsonPath">JsonPath (dchester)</option>
             </select>
         </label>
         <br/>
@@ -51,6 +47,5 @@
         </label>
     </div>
 </div>
-
 </body>
 </html>
